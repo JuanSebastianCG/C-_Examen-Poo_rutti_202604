@@ -1,0 +1,26 @@
+Crear una clase jugador
+El constructor debe recibir la vida que tiene y daño que puede causar
+Debe tener un método que le permita recibir daño
+Debe tener un método que retorne el daño que puede causar
+
+
+Crear una clase enemigo
+El constructor debe recibir la vida que tiene y daño que puede causar
+Debe tener un método que le permita recibir daño
+Debe tener un método que retorne el daño que puede causar
+Debe tener un método que retorne si está vivo o muerto
+
+
+Desarrollar:
+El usuario debe crear su personaje.
+El usuario debe poder asignar los datos que prefiera siempre y cuando la vida y el daño no superen 100
+
+Introducir la cantidad de enemigos que habrían.
+Se debe introducir cuánta vida y cuánto daño causaría cada enemigo.
+El enemigo al ser creado debe ser añadido en una lista
+El juego es por turnos, cada turno el jugador puede atacar un enemigo y luego 1 de los enemigo puede
+atacar al jugador.
+Si el enemigo está muerto, el jugador ya no debe poder atacarlo.
+Si el jugador se queda sin vida, debe mostrar un mensaje indicando derrota.
+Si se acaban los enemigos, debe mostrar un mensaje indicando victoria
+Si termina el juego, el jugador debe poder reiniciar la partida

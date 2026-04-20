@@ -1,0 +1,27 @@
+# --- Directorios de Compilación ---
+[Bb]in/
+[Ob]j/
+
+# --- Paquetes de NuGet ---
+*.nupkg
+.nuget/
+packages/
+
+# --- Configuraciones de VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Configuraciones de Visual Studio (IDE) ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Archivos temporales y de sistema ---
+*.log
+.DS_Store
+Thumbs.db
