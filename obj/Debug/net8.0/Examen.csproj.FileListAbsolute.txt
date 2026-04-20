@@ -12,3 +12,4 @@ C:\Users\juans\Documents\proyects\learningcrutti\Examen\obj\Debug\net8.0\refint\
 C:\Users\juans\Documents\proyects\learningcrutti\Examen\obj\Debug\net8.0\Examen.pdb
 C:\Users\juans\Documents\proyects\learningcrutti\Examen\obj\Debug\net8.0\Examen.genruntimeconfig.cache
 C:\Users\juans\Documents\proyects\learningcrutti\Examen\obj\Debug\net8.0\ref\Examen.dll
+C:\Users\juans\Documents\proyects\learningcrutti\Examen\obj\Debug\net8.0\Examen.sourcelink.json

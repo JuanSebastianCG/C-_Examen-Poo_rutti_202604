@@ -39,10 +39,4 @@ public class Enemigo
   }
 
 
-
-  public override string ToString()
-  {
-    return $"Enemigo [Vida: {this.vida}, Daño: {this.dmgToDo}]";
-  }
-
 }
