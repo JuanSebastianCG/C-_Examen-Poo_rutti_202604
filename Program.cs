@@ -145,7 +145,7 @@ Enemigo EnemigoVivoRandom(List<Enemigo> enemigos)
   // si si existen vivos continua y selecciona uno random
   Random rnd = new Random();
   /* dame un numero aleatorio dentro de  rango 0 a la lista de vivos */
-  int index = rnd.Next(vivos.Count);
+  int index = rnd.Next(0, vivos.Count);
   return vivos[index];
 }
 
