@@ -129,6 +129,7 @@ bool TodosMuertos(List<Enemigo> enemigos)
 
 Enemigo EnemigoVivoRandom(List<Enemigo> enemigos)
 {
+  /* crear lista de vivos */
   List<Enemigo> vivos = new List<Enemigo>();
   for (int i = 0; i < enemigos.Count; i++)
   {
@@ -137,11 +138,15 @@ Enemigo EnemigoVivoRandom(List<Enemigo> enemigos)
       vivos.Add(enemigos[i]);
     }
   }
+  /* si no hay vivos retornar null(vacio - no existen) */
   if (vivos.Count == 0)
   {
     return null;
   }
+
+  // si si existen vivos continua y selecciona uno random
   Random rnd = new Random();
+  /* dame un numero aleatorio dentro de  rango 0 a la lista de vivos */
   int index = rnd.Next(vivos.Count);
   return vivos[index];
 }
