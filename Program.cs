@@ -104,8 +104,6 @@ while (jugar)
     }
   }
 
-
-
   // Reiniciar
   Console.WriteLine("Quieres jugar otra vez? (s/n)");
   string resp = Console.ReadLine();
